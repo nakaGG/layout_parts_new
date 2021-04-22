@@ -1,5 +1,38 @@
 @charset "UTF-8";
 
+
+.meal {
+  table-layout: fixed;
+  width: 100%;
+  border: solid #dedede 1px;
+}
+
+th {
+  font-size: 18ox;
+  color: white;
+  line-height: 26px;
+  border: solid #dedede 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #2244aa;
+}
+
+td {
+  font-size: 16px;
+  line-height: 22px;
+  border: solid #dedede 1px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+tfoot tr {
+  border-top: dashed #000 2px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #ecf1f2;
+}
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
