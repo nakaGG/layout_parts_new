@@ -1,23 +1,70 @@
 @charset "UTF-8";
 
-.q6__box.is-textalign {
+.q6__box.is-textalign .q6__box__text {
   display: inline-block;
-  text-align: center;
 }
 
 .q6__box__inner {
   text-align: center;
 }
 
-.q6__box.is-margin {
+.q6__box.is-margin .q6__box__text {
+  margin: 0 auto;
   text-align: center;
 }
 
-.q6__box__text {
+.q6--horizontal .q6__box__text {
   padding: 10px 0;
   width: 90px;
-  display: inline-block;
   background-color: #E6F2FF;
+}
+
+.q6--around.is-table {
+  display: table;
+}
+
+.q6--around.is-table .q6__box {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.q6--around.is-table .q6__box__text {
+  display: inline-block;
+  padding: 10px;
+  background-color: #FFF;
+}
+
+.q6--around.is-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.q6--around.is-flex .q6__box__text {
+  padding: 10px;
+  background-color: #FFF;
+}
+
+.q6--position .q6__box {
+  position: relative;
+}
+
+.q6__box.is-stable .q6__box__inner {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+}
+
+.q6__box.is-flexible .q6__box__inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
 }
 /* 回答はここに書いてね */
 
