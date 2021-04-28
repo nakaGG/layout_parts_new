@@ -1,5 +1,94 @@
 @charset "UTF-8";
 
+.q5_contents {
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #ECF1F2;
+}
+
+.q5_content {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+  font-weight: bold;
+  position: absolute;
+}
+
+.puple {
+  z-index: 8;
+  top: 120px;
+  left: 120px;
+  background-color: #de70cf;
+}
+
+.green {
+  z-index: 5;
+  top: 360px;
+  left: 200px;
+  background-color: #9fd6d2;
+}
+
+.skin {
+  top: 40px;
+  left: 200px;
+  background-color: #ffefd3;
+}
+
+.orange {
+  z-index: 7;
+  top: 200px;
+  left: 40px;
+  background-color: #deae70;
+}
+
+.brown {
+  z-index: 4;
+  top: 280px;
+  right: 120px;
+  background-color: #8b7a5e;
+}
+
+.white {
+  z-index: 6;
+  top: 280px;
+  left: 120px;
+  background-color: #fffee4;
+}
+
+.puple::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 20px;
+  height: 20px;
+  background-color: #ffefd3;
+  content: "";
+}
+
+.blue {
+  z-index: 2;
+  top: 120px;
+  right: 120px;
+  background-color: #7084de;
+}
+
+.lightgreen {
+  z-index: 3;
+  top: 200px;
+  right: 40px;
+  background-color: #d0ecea;
+}
+
+.navy {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: #2b69a3;
+}
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
