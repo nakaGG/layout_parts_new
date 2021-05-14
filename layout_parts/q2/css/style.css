@@ -8,14 +8,6 @@
   background-color: #eff3f4;
 }
 
-.q2_content:first-child {
-  padding-bottom: 0px;
-}
-
-.q2_content:last-child {
-  padding-top: 0px;
-}
-
 .image_left {
   margin: 0px 20px 10px 0px;
   float: left;
