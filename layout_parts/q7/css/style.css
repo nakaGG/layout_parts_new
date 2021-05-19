@@ -6,86 +6,85 @@
   clear: both;
 }
 
-.q7--float .q7__box {
-  font-size: 16px;
+.q7__content__text {
   width: 225px;
+}
+
+.q7--float .q7__content__text {
+  font-size: 16px;
   margin-left: 50px;
   float: left;
   box-sizing: border-box;
 }
 
-.q7__box:first-child {
+.q7--float .q7__content__text:first-child {
   margin-left: 0;
 }
 
-.q7--table .q7__inner {
+.q7--table .q7__content {
   display: table;
 }
 
-.q7--table .q7__box {
+.q7--table .q7__content__box {
   display: table-cell;
-  width: 225px;
   padding-left: 50px;
   vertical-align: middle;
 }
 
-.q7--table .q7__box:first-child {
+.q7--table .q7__content__box:first-child {
   padding-left: 0;
 }
 
-.q7--inlineblock .q7__box {
+.q7--inlineblock .q7__content {
+  font-size: 0;
+}
+
+.q7--inlineblock .q7__content__text {
   display: inline-block;
-  width: 225px;
   margin-left: 50px;
   font-size: 16px;
   vertical-align: middle;
   box-sizing: border-box;
 }
 
-.q7--inlineblock .q7__box:first-child {
+.q7--inlineblock .q7__content__text:first-child {
   margin-left: 0;
 }
 
-.q7--inlineblock .q7__inner {
-  font-size: 0;
-}
-
-.q7--flex .q7__inner {
+.q7--flex .q7__content {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
 }
 
-.q7--flex .q7__box {
-  width: 225px;
+.q7--flex .q7__content__text {
   vertical-align: middle;
   box-sizing: border-box;
 }
 
-.q7--margin .q7__box.is-stable {
-  display: inline-block;
-  width: 300px;
+.q7__content__inner {
+  font-size: 0;
 }
 
-.q7--margin .q7__box.is-flexible {
+.is-inlineblock {
+  display: inline-block;
+  width: 300px;
+  vertical-align: top;
+}
+
+.is-variable {
   display: inline-block;
   width: 100%;
   margin-left: -300px;
   padding-left: 350px;
   box-sizing: border-box;
-}
-
-.q7--margin .q7__box {
   vertical-align: top;
 }
 
-.q7--margin .q7__box__text {
+.q7__margin__text {
   font-size: 16px;
 }
 
-.q7--margin .q7__inner {
-  font-size: 0;
-}
 /* 回答はここに書いてね */
 
 /* 回答はここに書いてね */
